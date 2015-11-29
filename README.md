@@ -25,8 +25,8 @@ conektaApi.createToken({
 ```
 
 ### iOS Installation
-Soon, sorry I have no time
+Soon, sorry I have no time (anyone can send a PR)
 
 ### Android Installation
-Soon, sorry I have no time
+Soon, sorry I have no time (anyone can send a PR)
 
