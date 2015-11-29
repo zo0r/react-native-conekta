@@ -9,6 +9,13 @@
   "keywords": [
     "conekta"
   ],
+  "bugs": {
+    "url": "https://github.com/zo0r/react-native-conekta/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:zo0r/react-native-conekta.git"
+  },
   "peerDependencies": {
     "react-native": ">=0.15.0"
   },
