@@ -1,0 +1,17 @@
+{
+  "name": "react-native-conekta",
+  "version": "1.0.0",
+  "description": "Conekta SDK for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "conekta"
+  ],
+  "peerDependencies": {
+    "react-native": ">=0.15.0"
+  },
+  "author": "zo0r <http://zo0r.me>",
+  "license": "MIT"
+}

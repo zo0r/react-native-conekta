@@ -1,0 +1,86 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		A747E0AD1BD1598E00343690 /* Connection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		A747E0AE1BD1599500343690 /* Conekta.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Conekta.m; sourceTree = "<group>"; };
+		A747E0AF1BD1599F00343690 /* Conekta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Conekta.h; sourceTree = "<group>"; };
+		A747E0B01BD159B600343690 /* Connection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		A747E0C31BD18E2C00343690 /* Token.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Token.h; sourceTree = "<group>"; };
+		A747E0C41BD18E3300343690 /* Token.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Token.m; sourceTree = "<group>"; };
+		A747E0C51BD1905200343690 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		A747E0C61BD1905900343690 /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A747E0A41BD1595300343690 = {
+			isa = PBXGroup;
+			children = (
+				A747E0C51BD1905200343690 /* Card.h */,
+				A747E0C61BD1905900343690 /* Card.m */,
+				A747E0AF1BD1599F00343690 /* Conekta.h */,
+				A747E0AE1BD1599500343690 /* Conekta.m */,
+				A747E0AD1BD1598E00343690 /* Connection.h */,
+				A747E0B01BD159B600343690 /* Connection.m */,
+				A747E0C31BD18E2C00343690 /* Token.h */,
+				A747E0C41BD18E3300343690 /* Token.m */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		A747E0A51BD1595300343690 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = A747E0A81BD1595300343690 /* Build configuration list for PBXProject "Conekta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A747E0A41BD1595300343690;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		A747E0A91BD1595300343690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A747E0AA1BD1595300343690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A747E0A81BD1595300343690 /* Build configuration list for PBXProject "Conekta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A747E0A91BD1595300343690 /* Debug */,
+				A747E0AA1BD1595300343690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A747E0A51BD1595300343690 /* Project object */;
+}

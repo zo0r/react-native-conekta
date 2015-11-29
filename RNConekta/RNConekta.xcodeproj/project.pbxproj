@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38F1D3201C0B82FA0012D62E /* RNConekta.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38F1D31F1C0B82FA0012D62E /* RNConekta.h */; };
+		38F1D3221C0B82FA0012D62E /* RNConekta.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1D3211C0B82FA0012D62E /* RNConekta.m */; };
+		38F1D33C1C0B8E2A0012D62E /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1D3321C0B8E2A0012D62E /* Card.m */; };
+		38F1D33D1C0B8E2A0012D62E /* Conekta.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1D3341C0B8E2A0012D62E /* Conekta.m */; };
+		38F1D33E1C0B8E2A0012D62E /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1D3391C0B8E2A0012D62E /* Connection.m */; };
+		38F1D33F1C0B8E2A0012D62E /* Token.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1D33B1C0B8E2A0012D62E /* Token.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		38F1D31A1C0B82FA0012D62E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				38F1D3201C0B82FA0012D62E /* RNConekta.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		38F1D31C1C0B82FA0012D62E /* libRNConekta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNConekta.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F1D31F1C0B82FA0012D62E /* RNConekta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNConekta.h; sourceTree = "<group>"; };
+		38F1D3211C0B82FA0012D62E /* RNConekta.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNConekta.m; sourceTree = "<group>"; };
+		38F1D3311C0B8E2A0012D62E /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Conekta/Card.h; sourceTree = "<group>"; };
+		38F1D3321C0B8E2A0012D62E /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Conekta/Card.m; sourceTree = "<group>"; };
+		38F1D3331C0B8E2A0012D62E /* Conekta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Conekta.h; path = Conekta/Conekta.h; sourceTree = "<group>"; };
+		38F1D3341C0B8E2A0012D62E /* Conekta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Conekta.m; path = Conekta/Conekta.m; sourceTree = "<group>"; };
+		38F1D3351C0B8E2A0012D62E /* Conekta.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Conekta.xcodeproj; path = Conekta/Conekta.xcodeproj; sourceTree = "<group>"; };
+		38F1D3381C0B8E2A0012D62E /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Connection.h; path = Conekta/Connection.h; sourceTree = "<group>"; };
+		38F1D3391C0B8E2A0012D62E /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Connection.m; path = Conekta/Connection.m; sourceTree = "<group>"; };
+		38F1D33A1C0B8E2A0012D62E /* Token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Token.h; path = Conekta/Token.h; sourceTree = "<group>"; };
+		38F1D33B1C0B8E2A0012D62E /* Token.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Token.m; path = Conekta/Token.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38F1D3191C0B82FA0012D62E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38F1D3131C0B82FA0012D62E = {
+			isa = PBXGroup;
+			children = (
+				38F1D3301C0B8DFE0012D62E /* Conekta */,
+				38F1D31E1C0B82FA0012D62E /* RNConekta */,
+				38F1D31D1C0B82FA0012D62E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38F1D31D1C0B82FA0012D62E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38F1D31C1C0B82FA0012D62E /* libRNConekta.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38F1D31E1C0B82FA0012D62E /* RNConekta */ = {
+			isa = PBXGroup;
+			children = (
+				38F1D31F1C0B82FA0012D62E /* RNConekta.h */,
+				38F1D3211C0B82FA0012D62E /* RNConekta.m */,
+			);
+			path = RNConekta;
+			sourceTree = "<group>";
+		};
+		38F1D3301C0B8DFE0012D62E /* Conekta */ = {
+			isa = PBXGroup;
+			children = (
+				38F1D3311C0B8E2A0012D62E /* Card.h */,
+				38F1D3321C0B8E2A0012D62E /* Card.m */,
+				38F1D3331C0B8E2A0012D62E /* Conekta.h */,
+				38F1D3341C0B8E2A0012D62E /* Conekta.m */,
+				38F1D3351C0B8E2A0012D62E /* Conekta.xcodeproj */,
+				38F1D3381C0B8E2A0012D62E /* Connection.h */,
+				38F1D3391C0B8E2A0012D62E /* Connection.m */,
+				38F1D33A1C0B8E2A0012D62E /* Token.h */,
+				38F1D33B1C0B8E2A0012D62E /* Token.m */,
+			);
+			name = Conekta;
+			sourceTree = "<group>";
+		};
+		38F1D3361C0B8E2A0012D62E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38F1D31B1C0B82FA0012D62E /* RNConekta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38F1D3251C0B82FA0012D62E /* Build configuration list for PBXNativeTarget "RNConekta" */;
+			buildPhases = (
+				38F1D3181C0B82FA0012D62E /* Sources */,
+				38F1D3191C0B82FA0012D62E /* Frameworks */,
+				38F1D31A1C0B82FA0012D62E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNConekta;
+			productName = RNConekta;
+			productReference = 38F1D31C1C0B82FA0012D62E /* libRNConekta.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38F1D3141C0B82FA0012D62E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Dieam;
+				TargetAttributes = {
+					38F1D31B1C0B82FA0012D62E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 38F1D3171C0B82FA0012D62E /* Build configuration list for PBXProject "RNConekta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38F1D3131C0B82FA0012D62E;
+			productRefGroup = 38F1D31D1C0B82FA0012D62E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 38F1D3361C0B8E2A0012D62E /* Products */;
+					ProjectRef = 38F1D3351C0B8E2A0012D62E /* Conekta.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				38F1D31B1C0B82FA0012D62E /* RNConekta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38F1D3181C0B82FA0012D62E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F1D3221C0B82FA0012D62E /* RNConekta.m in Sources */,
+				38F1D33F1C0B8E2A0012D62E /* Token.m in Sources */,
+				38F1D33D1C0B8E2A0012D62E /* Conekta.m in Sources */,
+				38F1D33C1C0B8E2A0012D62E /* Card.m in Sources */,
+				38F1D33E1C0B8E2A0012D62E /* Connection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		38F1D3231C0B82FA0012D62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38F1D3241C0B82FA0012D62E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38F1D3261C0B82FA0012D62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(PROJECT_DIR)/Conekta",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(PROJECT_DIR)/Conekta/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		38F1D3271C0B82FA0012D62E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(PROJECT_DIR)/Conekta",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(PROJECT_DIR)/Conekta/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38F1D3171C0B82FA0012D62E /* Build configuration list for PBXProject "RNConekta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F1D3231C0B82FA0012D62E /* Debug */,
+				38F1D3241C0B82FA0012D62E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38F1D3251C0B82FA0012D62E /* Build configuration list for PBXNativeTarget "RNConekta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F1D3261C0B82FA0012D62E /* Debug */,
+				38F1D3271C0B82FA0012D62E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38F1D3141C0B82FA0012D62E /* Project object */;
+}
