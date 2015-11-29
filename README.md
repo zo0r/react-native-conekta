@@ -1,6 +1,6 @@
 ## React Native Conekta
 
-React Native Conekta SDK for iOS and Android.
+React Native Conekta SDK for iOS and Android (soon).
 
 ### Installation
 `npm install react-native-conekta`
