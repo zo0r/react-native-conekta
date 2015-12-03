@@ -17,10 +17,10 @@
 
 - (id)init
 {
-    UIViewController *rootViewController = [UIApplication sharedApplication].delegate.window.rootViewController;
-    
+    UIViewController *controller = [[UIViewController alloc] init];
+
     conekta = [[Conekta alloc] init];
-    [conekta setDelegate: rootViewController];
+    [conekta setDelegate: controller];
 
     return self;
 }
@@ -31,10 +31,12 @@ RCT_EXPORT_METHOD(createToken:(NSDictionary *)info
                   callback:(RCTResponseSenderBlock)successCallback
                   errorCallback:(RCTResponseSenderBlock)failureCallback)
 {
+
+    NSString *publicKey = [RCTConvert NSString:info[@"publicKey"]];
+    [conekta setPublicKey:publicKey];
+
     if ( isCollected == NO ) {
-        NSString *publicKey = [RCTConvert NSString:info[@"publicKey"]];
         isCollected = YES;
-        [conekta setPublicKey:publicKey];
         [conekta collectDevice];
     }
 
