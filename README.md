@@ -1,6 +1,7 @@
 # React Native Conekta [![npm version](https://badge.fury.io/js/react-native-conekta.svg)](http://badge.fury.io/js/react-native-conekta)
 
-React Native Conekta SDK for iOS and Android
+***React Native Conekta SDK for iOS and Android***
+
 
 ## Installation
 `npm install react-native-conekta`
