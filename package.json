@@ -1,13 +1,16 @@
 {
   "name": "react-native-conekta",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Conekta SDK for React Native",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "conekta"
+    "conekta",
+    "react-native",
+    "ios",
+    "android"
   ],
   "bugs": {
     "url": "https://github.com/zo0r/react-native-conekta/issues"
@@ -17,7 +20,7 @@
     "url": "git+ssh://git@github.com:zo0r/react-native-conekta.git"
   },
   "peerDependencies": {
-    "react-native": ">=0.15.0"
+    "react-native": ">=0.16"
   },
   "author": "zo0r <http://zo0r.me>",
   "license": "MIT"
