@@ -16,14 +16,6 @@ var Conekta = function() {
  * Params:
  * publicKey: String (Your testing or production Public Key)
  */
-Conekta.prototype.get = function() {
-	return RNConekta;
-};
-
-/**
- * Params:
- * publicKey: String (Your testing or production Public Key)
- */
 Conekta.prototype.setPublicKey = function(publicKey: String) {
 	this.publicKey = publicKey;
 };
