@@ -7,10 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "conekta",
+    "react-component",
     "react-native",
     "ios",
-    "android"
+    "android",
+    "conekta"
   ],
   "bugs": {
     "url": "https://github.com/zo0r/react-native-conekta/issues"
