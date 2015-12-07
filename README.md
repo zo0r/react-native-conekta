@@ -1,16 +1,16 @@
 ## React Native Conekta
 
-React Native Conekta SDK for iOS and Android (soon).
+React Native Conekta SDK for iOS and Android
 
-### Installation
+## Installation
 `npm install react-native-conekta`
 
-### iOS Installation
+## iOS Installation
 [Please see: Linking Libraries iOS](https://facebook.github.io/react-native/docs/linking-libraries-ios.html#content)
 
 Library folder: `your-project/node_modules/react-native-conekta/RNConekta`
 
-### Android Installation
+## Android Installation
 In `android/settings.gradle`
 
 ```gradle
@@ -65,7 +65,7 @@ public class MainActivity extends Activity implements DefaultHardwareBackBtnHand
 }
 ```
 
-### Usage
+## Usage
 ```javascript
 var conektaApi = new Conekta();
 
