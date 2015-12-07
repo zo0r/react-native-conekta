@@ -1,6 +1,6 @@
 {
   "name": "react-native-conekta",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Conekta SDK for React Native",
   "main": "index.js",
   "scripts": {
