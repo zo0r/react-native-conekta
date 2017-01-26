@@ -15,12 +15,10 @@ import io.conekta.conektasdk.Conekta;
 import io.conekta.conektasdk.Token;
 
 public class RNConekta extends ReactContextBaseJavaModule {
-    Activity mActivity;
     Boolean isCollected = false;
 
-    public RNConekta(ReactApplicationContext reactContext, Activity activity) {
+    public RNConekta(ReactApplicationContext reactContext) {
         super(reactContext);
-        mActivity = activity;
     }
 
     @Override
@@ -30,7 +28,7 @@ public class RNConekta extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void createToken(ReadableMap info, final Callback successCallback, final Callback failureCallback) {
-
+        final Activity mActivity = getCurrentActivity();
         String publicKey = info.getString("publicKey");
 
         Conekta.setPublicKey(publicKey);
