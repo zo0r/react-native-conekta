@@ -14,17 +14,11 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ReactNativeConektaPackage implements ReactPackage {
-    Activity mActivity;
-
-    public ReactNativeConektaPackage(Activity activity) {
-        mActivity = activity;
-    }
-
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
 
-        modules.add(new RNConekta(reactContext, mActivity));
+        modules.add(new RNConekta(reactContext));
 
         return modules;
     }
@@ -39,5 +33,3 @@ public class ReactNativeConektaPackage implements ReactPackage {
         return new ArrayList<>();
     }
 }
-
-
