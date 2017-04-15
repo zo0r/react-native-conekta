@@ -2,6 +2,11 @@
 
 ***React Native Conekta SDK for iOS and Android***
 
+## Supported React Native Versions
+| Component Version     | RN Versions    | README     |
+|-----------------------|---------------|------------|
+| **1.0.4**          | **<= 0.16**   | [Open](https://github.com/zo0r/react-native-conekta/blob/0dae778f409123836df4ec0f6de484598658b11e/README.md)   |
+| **>= 2.0.0**          | **>= 0.30**   | [Open](https://github.com/zo0r/react-native-conekta/blob/master/README.md)   |
 
 ## Installation
 `npm install --save react-native-conekta`
