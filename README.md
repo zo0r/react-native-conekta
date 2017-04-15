@@ -8,13 +8,31 @@
 
 `react-native link`
 
+## Usage
+```javascript
+var conektaApi = new Conekta();
+
+conektaApi.setPublicKey( 'YOUR_PUBLIC_KEY' );
+
+conektaApi.createToken({
+  cardNumber: '4242424242424242',
+  name: 'Manolo Virolo',
+  cvc: '111',
+  expMonth: '11',
+  expYear: '21',
+}, function(data){
+  console.log( 'DATA:', data ); // data.id to get the Token ID
+}, function(){
+  console.log( 'Error!' );
+});
+```
 
 ## iOS Manual Installation (if you did not use `react-native link`)
 [Please see: Linking Libraries iOS](https://facebook.github.io/react-native/docs/linking-libraries-ios.html#content)
 
 Library folder: `your-project/node_modules/react-native-conekta/RNConekta`
 
-## Android Manual Installation
+## Android Manual Installation (if you did not use `react-native link`)
 In `android/settings.gradle`
 
 ```gradle
@@ -36,7 +54,7 @@ dependencies {
 }
 ```
 
-Manually register module in `MainApplication.java` (if you did not use `react-native link`):
+Manually register module in `MainApplication.java`:
 
 ```java
 import com.dieam.reactnativeconekta.ReactNativeConektaPackage;  // <--- import
@@ -65,21 +83,3 @@ public class MainApplication extends Application implements ReactApplication {
 
 ```
 
-## Usage
-```javascript
-var conektaApi = new Conekta();
-
-conektaApi.setPublicKey( 'YOUR_PUBLIC_KEY' );
-
-conektaApi.createToken({
-	cardNumber: '4242424242424242',
-	name: 'Manolo Virolo',
-	cvc: '111',
-	expMonth: '11',
-	expYear: '21',
-}, function(data){
-	console.log( 'DATA:', data ); // data.id to get the Token ID
-}, function(){
-	console.log( 'Error!' );
-});
-```
