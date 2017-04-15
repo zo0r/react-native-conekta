@@ -1,7 +1,5 @@
 package com.dieam.reactnativeconekta;
 
-import android.app.Activity;
-
 import com.dieam.reactnativeconekta.modules.RNConekta;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
@@ -14,17 +12,13 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ReactNativeConektaPackage implements ReactPackage {
-    Activity mActivity;
-
-    public ReactNativeConektaPackage(Activity activity) {
-        mActivity = activity;
-    }
+    public ReactNativeConektaPackage() {}
 
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
 
-        modules.add(new RNConekta(reactContext, mActivity));
+        modules.add(new RNConekta(reactContext));
 
         return modules;
     }

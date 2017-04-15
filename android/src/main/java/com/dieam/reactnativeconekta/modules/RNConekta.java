@@ -18,9 +18,9 @@ public class RNConekta extends ReactContextBaseJavaModule {
     Activity mActivity;
     Boolean isCollected = false;
 
-    public RNConekta(ReactApplicationContext reactContext, Activity activity) {
+    public RNConekta(ReactApplicationContext reactContext) {
         super(reactContext);
-        mActivity = activity;
+        mActivity = getCurrentActivity();
     }
 
     @Override
