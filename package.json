@@ -1,6 +1,6 @@
 {
   "name": "react-native-conekta",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Conekta SDK for React Native",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,12 @@
     "url": "git+ssh://git@github.com:zo0r/react-native-conekta.git"
   },
   "peerDependencies": {
-    "react-native": ">=0.16"
+    "react-native": ">=0.33"
+  },
+  "rnpm": {
+    "android": {
+      "packageInstance": "new ReactNativePushNotificationPackage()"
+    }
   },
   "author": "zo0r <http://zo0r.me>",
   "license": "MIT"
