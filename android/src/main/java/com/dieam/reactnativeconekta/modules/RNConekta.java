@@ -15,12 +15,10 @@ import io.conekta.conektasdk.Conekta;
 import io.conekta.conektasdk.Token;
 
 public class RNConekta extends ReactContextBaseJavaModule {
-    Activity mActivity;
     Boolean isCollected = false;
 
     public RNConekta(ReactApplicationContext reactContext) {
         super(reactContext);
-        mActivity = getCurrentActivity();
     }
 
     @Override
@@ -37,7 +35,7 @@ public class RNConekta extends ReactContextBaseJavaModule {
 
         if ( isCollected ) {
             isCollected = true;
-            Conekta.collectDevice(mActivity);
+            Conekta.collectDevice(getCurrentActivity());
         }
 
         String cardNumber = info.getString("cardNumber");
@@ -47,7 +45,7 @@ public class RNConekta extends ReactContextBaseJavaModule {
         String expYear = info.getString("expYear");
 
         Card card = new Card(name, cardNumber, cvc, expMonth, expYear);
-        Token token = new Token(mActivity);
+        Token token = new Token(getCurrentActivity());
 
         token.onCreateTokenListener( new Token.CreateToken(){
             @Override
