@@ -25,7 +25,7 @@
   },
   "rnpm": {
     "android": {
-      "packageInstance": "new ReactNativePushNotificationPackage()"
+      "packageInstance": "new ReactNativeConektaPackage()"
     }
   },
   "author": "zo0r <http://zo0r.me>",
