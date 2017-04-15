@@ -1,4 +1,4 @@
-# React Native Conekta [![npm version](https://badge.fury.io/js/react-native-conekta.svg)](http://badge.fury.io/js/react-native-conekta)
+# React Native Conekta [![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=2.0.0&x2=0)](http://badge.fury.io/js/react-native-conekta)
 
 ***React Native Conekta SDK for iOS and Android***
 
