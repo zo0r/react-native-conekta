@@ -6,8 +6,7 @@
 //  Copyright © 2015 Dieam. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import "RCTBridgeModule.h"
+#import <React/RCTBridgeModule.h>
 
 @interface RNConekta : NSObject <RCTBridgeModule>
 
