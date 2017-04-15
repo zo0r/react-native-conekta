@@ -4,14 +4,17 @@
 
 
 ## Installation
-`npm install react-native-conekta`
+`npm install --save react-native-conekta`
 
-## iOS Installation
+`react-native link`
+
+
+## iOS Manual Installation (if you did not use `react-native link`)
 [Please see: Linking Libraries iOS](https://facebook.github.io/react-native/docs/linking-libraries-ios.html#content)
 
 Library folder: `your-project/node_modules/react-native-conekta/RNConekta`
 
-## Android Installation
+## Android Manual Installation
 In `android/settings.gradle`
 
 ```gradle
@@ -33,37 +36,33 @@ dependencies {
 }
 ```
 
-Register module (in `MainActivity.java`)
+Manually register module in `MainApplication.java` (if you did not use `react-native link`):
 
 ```java
 import com.dieam.reactnativeconekta.ReactNativeConektaPackage;  // <--- import
 
-public class MainActivity extends Activity implements DefaultHardwareBackBtnHandler {
-  ......
-
-  @Override
-  protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    mReactRootView = new ReactRootView(this);
-
-    mReactInstanceManager = ReactInstanceManager.builder()
-      .setApplication(getApplication())
-      .setBundleAssetName("index.android.bundle")
-      .setJSMainModuleName("index.android")
-      .addPackage(new MainReactPackage())
-      .addPackage(new ReactNativeConektaPackage(this))// <------ add the package
-      .setUseDeveloperSupport(BuildConfig.DEBUG)
-      .setInitialLifecycleState(LifecycleState.RESUMED)
-      .build();
-
-    mReactRootView.startReactApplication(mReactInstanceManager, "ExampleApp", null);
-
-    setContentView(mReactRootView);
-  }
+public class MainApplication extends Application implements ReactApplication {
 
   ......
+  private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
+      @Override
+      protected boolean getUseDeveloperSupport() {
+        return BuildConfig.DEBUG;
+      }
 
+      @Override
+      protected List<ReactPackage> getPackages() {
+
+      return Arrays.<ReactPackage>asList(
+          new MainReactPackage(),
+          new ReactNativeConektaPackage() // <---- Add the Package
+      );
+    }
+  };
+
+  ....
 }
+
 ```
 
 ## Usage
