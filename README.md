@@ -44,7 +44,7 @@ In `android/settings.gradle`
 ...
 
 include ':react-native-conekta'
-project(':react-native-conekta').projectDir = file('../node_modules/react-native-conekta/RNConektaAndroid')
+project(':react-native-conekta').projectDir = file('../node_modules/react-native-conekta/android')
 ```
 
 In `android/app/build.gradle`
