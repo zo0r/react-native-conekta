@@ -31,7 +31,7 @@ WKWebView *web;
 
     [web loadHTMLString:html baseURL:nil];
 //    [web setScalesPageToFit:YES];
-    [self.delegate.view addSubview:web];
+//    [self.delegate.view addSubview:web];
 }
 
 - (id) populate: (id) class

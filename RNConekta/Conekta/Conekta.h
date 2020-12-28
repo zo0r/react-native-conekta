@@ -10,6 +10,7 @@
 #define Conekta_h
 
 #import <WebKit/WebKit.h>
+#import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import "Token.h"
 #import "Card.h"
@@ -18,6 +19,7 @@
 @property(strong,nonatomic) WKWebView *webView;
 @property (nonatomic, retain) NSString *baseURI;
 @property (nonatomic, retain) NSString *publicKey;
+@property (nonatomic, retain) UIViewController *delegate;
 
 - (NSString *) deviceFingerprint;
 - (void) collectDevice;
