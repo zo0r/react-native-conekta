@@ -1,6 +1,7 @@
 //
 //  RNConekta.m
 
+#import <WebKit/WebKit.h>
 #import <UIKit/UIKit.h>
 #import "Conekta.h"
 #import "RNConekta.h"
