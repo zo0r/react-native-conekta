@@ -1,6 +1,7 @@
 //
 //  RNConekta.m
 
+#import <WebKit/WebKit.h>
 #import <UIKit/UIKit.h>
 #import "Conekta.h"
 #import "RNConekta.h"
@@ -14,6 +15,16 @@
 @implementation RNConekta
     Conekta *conekta;
     BOOL isCollected = NO;
+
+- (dispatch_queue_t)methodQueue
+{
+    return dispatch_get_main_queue();
+}
+
++ (BOOL)requiresMainQueueSetup
+{
+    return YES;
+}
 
 - (id)init
 {
